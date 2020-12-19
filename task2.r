@@ -1,4 +1,6 @@
 
+
+# simulating branching process
 simulate <- function(N, lambda, nb_children) {
 	die <- 0
     z_values <- c()

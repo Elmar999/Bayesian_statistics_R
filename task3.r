@@ -1,24 +1,11 @@
-# 1-a
-# print(1 - ppois(5, 36*0.16))
 
-# print(dpois(4, 36*0.16)*dpois(4, 36*0.04)*dpois(4, 36*0.04)*dpois(4, 36*0.08))
-# print(dpois(4, 36*0.16)*dpois(4, 36*0.12))
+# simulating N trees in area of (0, 1)x(0, 1) uniformly
+N = (rgamma(1, shape = 36, rate = 1))
+N = 36
+x <- runif(N,0,1)
+y <- runif(N,0,1)
 
-# N <- 36;
-# x <- runif(N,0,1)
-# y <- runif(N,0,1)
-
-# plot(x,y, pch=2, ylim=c(0,1), xlim=c(0,1))
-
-# print(rpois(1, 36)*1/36)
-
-
-# N = (rgamma(1, shape = 36, rate = 1))
-# N = 36
-# x <- runif(N,0,1)
-# y <- runif(N,0,1)
-
-# plot(x,y, pch=2, ylim=c(0,1), xlim=c(0,1))
+plot(x,y, pch=2, ylim=c(0,1), xlim=c(0,1))
 
 
 avg_distance <- function(x_values, y_values) {

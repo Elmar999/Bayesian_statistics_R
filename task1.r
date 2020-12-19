@@ -53,8 +53,6 @@ numerical_integration <- function(ynew){
 }
 
 
-# Call the function new.function supplying 6 as an argument.
-# simulate(1000000)
 
 mean_lambda <- simulate_c(1000000)
 cat("\napproximative answer using samples\n")
